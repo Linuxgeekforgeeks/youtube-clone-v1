@@ -2,6 +2,7 @@
 
 import { MdMenu } from "react-icons/md";
 import { IconButton } from "../IconButton";
+import { Logo } from "../Logo";
 
 function NavigationHeader() {
   return (
@@ -10,6 +11,8 @@ function NavigationHeader() {
 
       <MdMenu className="h-6 w-6" />
         </IconButton>
+
+        <Logo/>
     </div>
   );
 }
